@@ -1,6 +1,8 @@
 # symlinks and subdirs
 **/dist
 **/build
+**/*.eggs
+**/*.egg-info
 
 # data management
 data/*
