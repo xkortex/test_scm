@@ -13,7 +13,7 @@ __version__ = "unset"
 from pkg_resources import get_distribution, DistributionNotFound
 
 try:
-    __version__ = get_distribution('test_scm').version
+    __version__ = get_distribution(__name__).version
     print('pkg_resources')
 except (DistributionNotFound, NameError) as exc:
     # package is not installed

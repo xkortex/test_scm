@@ -8,7 +8,7 @@ setup(
         'write_to_template': '__version__ = "{version}"',
     },
     script_name='setup.py',
-    python_requires='>=3.6',
+    python_requires='>=3.5',
     packages=packages,
     setup_requires=['setuptools_scm'],
 )
