@@ -2,6 +2,8 @@
 requires = ["setuptools>=30.3.0", "wheel", "setuptools_scm"]
 
 [tool.setuptools_scm]
+#write_to = "pkg/version.py"
+#write_to_template = '__version__ = "{version}"'
 
 
 [tool.black]
